@@ -1,0 +1,23 @@
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-links a {
+  margin: 0 5px;
+}
+
+.footer-links i {
+  color: $gray;
+  &:hover {
+    color: $light-red;
+  }
+}
+
+.footer-copyright {
+  margin-rigth: 5px;
+}
+
+.footer-copyright i {
+  color: $red;
+}
